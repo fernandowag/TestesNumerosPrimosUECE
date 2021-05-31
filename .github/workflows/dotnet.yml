@@ -22,5 +22,6 @@ jobs:
     - name: Build
       working-directory: ./
       run: dotnet build --no-restore
-
-      
+    - name: Tests
+      working-directory: ./
+      run: dotnet test      
