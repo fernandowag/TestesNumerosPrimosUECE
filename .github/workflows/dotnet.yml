@@ -22,12 +22,6 @@ jobs:
     - name: Build
       working-directory: ./
       run: dotnet build --no-restore
-      
-  test:
-
-    runs-on: ubuntu-latest
-
-    steps:
     - name: Tests
       working-directory: ./
       run: dotnet test         
